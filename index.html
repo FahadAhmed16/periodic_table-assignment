@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fff;
+        }
+        h1 {
+            background-color: #39c035ee;
+            margin: 0;
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        td {
+            width: 40px;
+            height: 40px;
+            border: 1px solid #000;
+            text-align: center;
+            font-size: 14px;
+            vertical-align: middle;
+        }
+        .empty {
+            border: none;
+            background-color: transparent;
+        }
+        .element {
+            font-weight: bold;
+        }
+        /* Color coding for groups */
+        .group1 { background-color: #ff9999; } /* Alkali metals */
+        .group2 { background-color: #ffcc99; } /* Alkaline earth metals */
+        .group3-12 { background-color: #c0c0c0; } /* Transition metals */
+        .group13 { background-color: #ccff99; } /* Boron group */
+        .group14 { background-color: #99ff99; } /* Carbon group */
+        .group15 { background-color: #99ccff; } /* Nitrogen group */
+        .group16 { background-color: #ff99cc; } /* Oxygen group */
+        .group17 { background-color: #99ffff; } /* Halogens */
+        .group18 { background-color: #cc99ff; } /* Noble gases */
+        .lanthanides { background-color: #ff99ff; } /* Lanthanides */
+        .actinides { background-color: #ffccff; } /* Actinides */
+    </style>
+</head>
+<body>
+    <h1>THE PERIODIC TABLE</h1>
+    <table>
+        <!-- Row 1 -->
+        <tr>
+            <td class="element group1">1<br>H</td>
+            <td class="empty" colspan="16"></td>
+            <td class="element group18">2<br>He</td>
+        </tr>
+        <!-- Row 2 -->
+        <tr>
+            <td class="element group1">3<br>Li</td>
+            <td class="element group2">4<br>Be</td>
+            <td class="empty" colspan="10"></td>
+            <td class="element group13">5<br>B</td>
+            <td class="element group14">6<br>C</td>
+            <td class="element group15">7<br>N</td>
+            <td class="element group16">8<br>O</td>
+            <td class="element group17">9<br>F</td>
+            <td class="element group18">10<br>Ne</td>
+        </tr>
+        <!-- Row 3 -->
+        <tr>
+            <td class="element group1">11<br>Na</td>
+            <td class="element group2">12<br>Mg</td>
+            <td class="empty" colspan="10"></td>
+            <td class="element group13">13<br>Al</td>
+            <td class="element group14">14<br>Si</td>
+            <td class="element group15">15<br>P</td>
+            <td class="element group16">16<br>S</td>
+            <td class="element group17">17<br>Cl</td>
+            <td class="element group18">18<br>Ar</td>
+        </tr>
+        <!-- Row 4 -->
+        <tr>
+            <td class="element group1">19<br>K</td>
+            <td class="element group2">20<br>Ca</td>
+            <td class="element group3-12">21<br>Sc</td>
+            <td class="element group3-12">22<br>Ti</td>
+            <td class="element group3-12">23<br>V</td>
+            <td class="element group3-12">24<br>Cr</td>
+            <td class="element group3-12">25<br>Mn</td>
+            <td class="element group3-12">26<br>Fe</td>
+            <td class="element group3-12">27<br>Co</td>
+            <td class="element group3-12">28<br>Ni</td>
+            <td class="element group3-12">29<br>Cu</td>
+            <td class="element group3-12">30<br>Zn</td>
+            <td class="element group13">31<br>Ga</td>
+            <td class="element group14">32<br>Ge</td>
+            <td class="element group15">33<br>As</td>
+            <td class="element group16">34<br>Se</td>
+            <td class="element group17">35<br>Br</td>
+            <td class="element group18">36<br>Kr</td>
+        </tr>
+        <!-- Row 5 -->
+        <tr>
+            <td class="element group1">37<br>Rb</td>
+            <td class="element group2">38<br>Sr</td>
+            <td class="element group3-12">39<br>Y</td>
+            <td class="element group3-12">40<br>Zr</td>
+            <td class="element group3-12">41<br>Nb</td>
+            <td class="element group3-12">42<br>Mo</td>
+            <td class="element group3-12">43<br>Tc</td>
+            <td class="element group3-12">44<br>Ru</td>
+            <td class="element group3-12">45<br>Rh</td>
+            <td class="element group3-12">46<br>Pd</td>
+            <td class="element group3-12">47<br>Ag</td>
+            <td class="element group3-12">48<br>Cd</td>
+            <td class="element group13">49<br>In</td>
+            <td class="element group14">50<br>Sn</td>
+            <td class="element group15">51<br>Sb</td>
+            <td class="element group16">52<br>Te</td>
+            <td class="element group17">53<br>I</td>
+            <td class="element group18">54<br>Xe</td>
+        </tr>
+        <!-- Row 6 -->
+        <tr>
+            <td class="element group1">55<br>Cs</td>
+            <td class="element group2">56<br>Ba</td>
+            <td class="element group3-12">57-71<br>*</td>
+            <td class="element group3-12">72<br>Hf</td>
+            <td class="element group3-12">73<br>Ta</td>
+            <td class="element group3-12">74<br>W</td>
+            <td class="element group3-12">75<br>Re</td>
+            <td class="element group3-12">76<br>Os</td>
+            <td class="element group3-12">77<br>Ir</td>
+            <td class="element group3-12">78<br>Pt</td>
+            <td class="element group3-12">79<br>Au</td>
+            <td class="element group3-12">80<br>Hg</td>
+            <td class="element group13">81<br>Tl</td>
+            <td class="element group14">82<br>Pb</td>
+            <td class="element group15">83<br>Bi</td>
+            <td class="element group16">84<br>Po</td>
+            <td class="element group17">85<br>At</td>
+            <td class="element group18">86<br>Rn</td>
+        </tr>
+        <!-- Row 7 -->
+        <tr>
+            <td class="element group1">87<br>Fr</td>
+            <td class="element group2">88<br>Ra</td>
+            <td class="element group3-12">89-103<br>**</td>
+            <td class="element group3-12">104<br>Rf</td>
+            <td class="element group3-12">105<br>Db</td>
+            <td class="element group3-12">106<br>Sg</td>
+            <td class="element group3-12">107<br>Bh</td>
+            <td class="element group3-12">108<br>Hs</td>
+            <td class="element group3-12">109<br>Mt</td>
+            <td class="element group3-12">110<br>Ds</td>
+            <td class="element group3-12">111<br>Rg</td>
+            <td class="element group3-12">112<br>Cn</td>
+            <td class="element group13">113<br>Nh</td>
+            <td class="element group14">114<br>Fl</td>
+            <td class="element group15">115<br>Mc</td>
+            <td class="element group16">116<br>Lv</td>
+            <td class="element group17">117<br>Ts</td>
+            <td class="element group18">118<br>Og</td>
+        </tr>
+        <!-- Spacer -->
+        <tr><td class="empty" colspan="18"></td></tr>
+        <!-- Lanthanides -->
+        <tr>
+            <td class="empty" colspan="2"></td>
+            <td class="element lanthanides">57<br>La</td>
+            <td class="element lanthanides">58<br>Ce</td>
+            <td class="element lanthanides">59<br>Pr</td>
+            <td class="element lanthanides">60<br>Nd</td>
+            <td class="element lanthanides">61<br>Pm</td>
+            <td class="element lanthanides">62<br>Sm</td>
+            <td class="element lanthanides">63<br>Eu</td>
+            <td class="element lanthanides">64<br>Gd</td>
+            <td class="element lanthanides">65<br>Tb</td>
+            <td class="element lanthanides">66<br>Dy</td>
+            <td class="element lanthanides">67<br>Ho</td>
+            <td class="element lanthanides">68<br>Er</td>
+            <td class="element lanthanides">69<br>Tm</td>
+            <td class="element lanthanides">70<br>Yb</td>
+            <td class="element lanthanides">71<br>Lu</td>
+            <td class="empty"></td>
+        </tr>
+        <!-- Actinides -->
+        <tr>
+            <td class="empty" colspan="2"></td>
+            <td class="element actinides">89<br>Ac</td>
+            <td class="element actinides">90<br>Th</td>
+            <td class="element actinides">91<br>Pa</td>
+            <td class="element actinides">92<br>U</td>
+            <td class="element actinides">93<br>Np</td>
+            <td class="element actinides">94<br>Pu</td>
+            <td class="element actinides">95<br>Am</td>
+            <td class="element actinides">96<br>Cm</td>
+            <td class="element actinides">97<br>Bk</td>
+            <td class="element actinides">98andoli
+
+98<br>Cf</td>
+            <td class="element actinides">99<br>Es</td>
+            <td class="element actinides">100<br>Fm</td>
+            <td class="element actinides">101<br>Md</td>
+            <td class="element actinides">102<br>No</td>
+            <td class="element actinides">103<br>Lr</td>
+            <td class="empty"></td>
+        </tr>
+    </table>
+</body>
+</html>
